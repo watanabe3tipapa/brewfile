@@ -1,0 +1,426 @@
+# Cask applications
+# Please copy these lines to your Brewfile and use with `brew file install`.
+
+# Main tap repository for brew-cask
+install caskroom/cask/brew-cask
+
+# Apps installed directly instead of by Cask in brew-cask
+#cask install adobe-reader #/Applications/Adobe Reader.app
+#cask install amazon-cloud-drive #/Applications/Amazon Cloud Drive.app
+#cask install android-file-transfer #/Applications/Android File Transfer.app
+#cask install android-studio #/Applications/Android Studio.app
+#cask install aquaterm #/Applications/AquaTerm.app
+#cask install atom #/Applications/Atom.app
+#cask install bitcasa #/Applications/Bitcasa.app
+#cask install brackets #/Applications/Brackets.app
+#cask install chromecast #/Applications/Chromecast.app
+#cask install dropbox #/Applications/Dropbox.app
+#cask install emacs #/Applications/Emacs.app
+#cask install eye-fi #/Applications/Eye-Fi
+#cask install filedrop #/Applications/Filedrop.app
+#cask install firefox #/Applications/Firefox.app
+#cask install flickr-uploadr #/Applications/Flickr Uploadr.app
+#cask install flip4mac #/Applications/Flip4Mac
+#cask install github #/Applications/GitHub-2.app
+#cask install github #/Applications/GitHub.app
+#cask install goodsync #/Applications/GoodSync.app
+#cask install google-chrome #/Applications/Google Chrome.app
+#cask install google-drive #/Applications/Google Drive.app
+#cask install google-earth #/Applications/Google Earth.app
+#cask install google-plus-auto-backup #/Applications/Google+ Auto Backup.app
+#cask install imageoptim #/Applications/ImageOptim.app
+#cask install iterm2 #/Applications/iTerm.app
+#cask install kibako #/Applications/Kibako.app
+#cask install kindle #/Applications/Kindle.app
+#cask install lastpass #/Applications/LastPass.app
+#cask install logmein-client #~/Applications/LogMeIn Client.app
+#cask install lyrics-master #/Applications/Lyrics Master
+#cask install macports #/Applications/MacPorts
+#cask install mactracker #/Applications/Mactracker.app
+#cask install magican #/Applications/Magican.app
+#cask install mention #/Applications/mention.app
+#cask install microsoft-office #/Applications/Microsoft Office 2011
+#cask install onyx #/Applications/OnyX.app
+#cask install picasa #/Applications/Picasa.app
+#cask install pingendo #/Applications/Pingendo.app
+#cask install powerphotos #/Applications/Photos.app
+#cask install r #/Applications/R.app
+#cask install recordit #/Applications/RecordIt.app
+#cask install scratch #/Applications/Utilities/Adobe AIR Application Installer.app
+#cask install sdformatter #/Applications/SDFormatter.app
+#cask install skype #/Applications/Skype.app
+#cask install soundflower #/Applications/Soundflower
+#cask install sourcetree #/Applications/SourceTree.app
+#cask install sublime-text #/Applications/Sublime Text 2.app
+#cask install sublime-text #/Applications/Sublime Text.app
+#cask install textadept #/Applications/textadept_6.5.osx
+#cask install textwrangler #/Applications/TextWrangler.app
+#cask install transmission #/Applications/Transmission.app
+#cask install transmit #/Applications/Transmit.app
+#cask install typora #/Applications/Typora.app
+#cask install universal-media-server #/Applications/Universal Media Server.app
+#cask install vlc #/Applications/VLC.app
+#cask install vmware-fusion #/Applications/VMware Fusion.app
+#cask install vuescan #/Applications/VueScan.app
+#cask install wakeonlan #/Applications/WakeOnLan
+#cask install xquartz #/Applications/Utilities/XQuartz.app
+
+# Apps installed from AppStore
+#/Applications/1000 OpenType Fonts.app
+#/Applications/3Hub.app
+#/Applications/Adobe Revel.app
+#/Applications/Amazing Effects.app
+#/Applications/Any PDF Converter Pro.app
+#/Applications/Any Screen Record Pro.app
+#/Applications/Any Send.app
+#/Applications/AnyMP4 PDF to Word Converter.app
+#/Applications/Aperture.app
+#/Applications/App for Google Calendar.app
+#/Applications/Apple Configurator.app
+#/Applications/appn'wire.app
+#/Applications/ArcSoft Photo+.app
+#/Applications/Audio Edit - Trim ID3.app
+#/Applications/Battery Monitor.app
+#/Applications/BatteryNurse.app
+#/Applications/Blinky.app
+#/Applications/BooklogScanForMac.app
+#/Applications/BrowseShot.app
+#/Applications/CalcNote.app
+#/Applications/CameraBag 2.app
+#/Applications/CCleaner.app
+#/Applications/CherryBlossom OSX.app
+#/Applications/City 70s80s90s.app
+#/Applications/City Classical.app
+#/Applications/City Jazz.app
+#/Applications/Cliposaur.app
+#/Applications/cmdQuit.app
+#/Applications/cofeshow.app
+#/Applications/CollageMaster.app
+#/Applications/Color Palette from Image.app
+#/Applications/ColorSnapper.app
+#/Applications/Command-C.app
+#/Applications/ControlAir.app
+#/Applications/Countdown.app
+#/Applications/Day One.app
+#/Applications/Delineato Pro.app
+#/Applications/Desktop Calendar Plus.app
+#/Applications/Desktopr.app
+#/Applications/Disc Label Maker Lite.app
+#/Applications/Discovr Music.app
+#/Applications/Disk Diag.app
+#/Applications/DiskKeeper Advanced Cleaner.app
+#/Applications/DiskKeeper.app
+#/Applications/doo.app
+#/Applications/DrCleaner.app
+#/Applications/Duplicate File Cleaner.app
+#/Applications/Easy Typer.app
+#/Applications/EasySplash.app
+#/Applications/Evernote.app
+#/Applications/ExifPurge.app
+#/Applications/Explainer.app
+#/Applications/faceblur.app
+#/Applications/feedly.app
+#/Applications/File Info Explorer.app
+#/Applications/File Info Plus.app
+#/Applications/File list Export.app
+#/Applications/File Storage Companion.app
+#/Applications/File-Info.app
+#/Applications/Flow.app
+#/Applications/Fluctus Free.app
+#/Applications/FontSieve.app
+#/Applications/ForkLift.app
+#/Applications/FormatMatch.app
+#/Applications/Fotor.app
+#/Applications/Fox PDF Reader.app
+#/Applications/Free MP4 Converter.app
+#/Applications/FreeSpace Tab.app
+#/Applications/Freeway Express AS.app
+#/Applications/Friends List.app
+#/Applications/FX Foto Pro.app
+#/Applications/FX Photo Studio PRO.app
+#/Applications/GarageBand.app
+#/Applications/GeekTool.app
+#/Applications/Geranium PDF Converter.app
+#/Applications/GoSync.app
+#/Applications/GrabAll.app
+#/Applications/GraphDraft.app
+#/Applications/Gravity Lab.app
+#/Applications/Growl.app
+#/Applications/GZRacing.app
+#/Applications/HakView.app
+#/Applications/HiddenMe Free.app
+#/Applications/Hider.app
+#/Applications/iBooks Author.app
+#/Applications/iBox.app
+#/Applications/iCleanMemory.app
+#/Applications/Icns Builder.app
+#/Applications/iMage Tools.app
+#/Applications/ImageCrawler.app
+#/Applications/iMovie.app
+#/Applications/imSpriteSheet.app
+#/Applications/Inpaint 5.app
+#/Applications/inSSIDer.app
+#/Applications/IP Scanner.app
+#/Applications/iPhoto.app
+#/Applications/iReader.app
+#/Applications/iResizer.app
+#/Applications/iRFExplorer.app
+#/Applications/iTag.app
+#/Applications/JellyfiSSH.app
+#/Applications/Jibber.app
+#/Applications/JSON XML Parser.app
+#/Applications/Just Color Picker.app
+#/Applications/Keynote.app
+#/Applications/Kinoppy.app
+#/Applications/Kiritori.app
+#/Applications/LanScan.app
+#/Applications/Large File Detector.app
+#/Applications/LensFlares.app
+#/Applications/linesmART.app
+#/Applications/Live! Weather.app
+#/Applications/Mail Detective.app
+#/Applications/MARKETSPEED.app
+#/Applications/MDEdit.app
+#/Applications/Memo.app
+#/Applications/Memory Monitor.app
+#/Applications/MemoryFreer.app
+#/Applications/Micro Snitch.app
+#/Applications/Mila's Tools.app
+#/Applications/Mindix.app
+#/Applications/mosaic.app
+#/Applications/MUSIC Pub.app
+#/Applications/My Alarm Clock.app
+#/Applications/My Magnetic Board.app
+#/Applications/NetSpot.app
+#/Applications/Network Connection Monitor.app
+#/Applications/NoteLedge.app
+#/Applications/Numbers.app
+#/Applications/Numi.app
+#/Applications/OneDrive.app
+#/Applications/Pages.app
+#/Applications/Palette of Patterns Importer.app
+#/Applications/Pastebin It!.app
+#/Applications/PDF Compress Expert.app
+#/Applications/PDF Connect.app
+#/Applications/PDF OCR X Community Edition.app
+#/Applications/PDF Splitter +.app
+#/Applications/PDF to Image Converter Expert.app
+#/Applications/Pencil Sketch Pro.app
+#/Applications/Perfect Rename.app
+#/Applications/PerfectMind.app
+#/Applications/Photo Meta Edit.app
+#/Applications/Photo to Poster EZ.app
+#/Applications/PhotoBulk.app
+#/Applications/PhotoFacer.app
+#/Applications/PhotoFramer.app
+#/Applications/PhotoMontager.app
+#/Applications/PhotoResize.app
+#/Applications/PhotosBlender.app
+#/Applications/PhotoScapeX.app
+#/Applications/PhotoSketcher.app
+#/Applications/PhotoStitcher.app
+#/Applications/PicFrame.app
+#/Applications/Picture Collage Maker 3.app
+#/Applications/Picturesque.app
+#/Applications/Pixelmator.app
+#/Applications/PixelPumper.app
+#/Applications/Pixlr.app
+#/Applications/Pocket.app
+#/Applications/PopBoardz.app
+#/Applications/Present.app
+#/Applications/Protractor.app
+#/Applications/QaLL.app
+#/Applications/QR-Generator.app
+#/Applications/QRCodePro.app
+#/Applications/RAW HDR 101 Filters.app
+#/Applications/ReceiptKeeper.app
+#/Applications/Recents.app
+#/Applications/recorder-pro.app
+#/Applications/Reeder.app
+#/Applications/Right QR.app
+#/Applications/Safecast.app
+#/Applications/Sauce.app
+#/Applications/Screenmailer.app
+#/Applications/ScreenShot PSD.app
+#/Applications/Screenshoter.app
+#/Applications/Screeny.app
+#/Applications/Sharks 3D.app
+#/Applications/SiteSucker.app
+#/Applications/SketchBook.app
+#/Applications/Skitch.app
+#/Applications/SmartZipper Pro.app
+#/Applications/Snapheal.app
+#/Applications/Snapselect.app
+#/Applications/SndRaker.app
+#/Applications/Softmatic Calculator XL.app
+#/Applications/Softmatic PhotoBatch.app
+#/Applications/Softmatic QR Perfect.app
+#/Applications/Solutions.app
+#/Applications/Songs.app
+#/Applications/Speaking.app
+#/Applications/SpeakLine.app
+#/Applications/Sunrise Calendar.app
+#/Applications/Super Music Converter.app
+#/Applications/Super Vectorizer.app
+#/Applications/Superimpose Studio Pro.app
+#/Applications/Sweetie.app
+#/Applications/Sync Folders.app
+#/Applications/Templates for PowerPoint.app
+#/Applications/Tiny Text.app
+#/Applications/Total Manager.app
+#/Applications/Twitter.app
+#/Applications/uDesktop NEXT.app
+#/Applications/UltraCollage.app
+#/Applications/UTC Scroll.app
+#/Applications/VisualXML.app
+#/Applications/Web Slices.app
+#/Applications/Webshot.app
+#/Applications/Who's On My WiFi.app
+#/Applications/Wi Display.app
+#/Applications/WiFi Scanner.app
+#/Applications/Wunderlist.app
+#/Applications/Xcode.app
+#/Applications/xLine Lite.app
+#/Applications/XnSketch.app
+#/Applications/XRadio.app
+#/Applications/xScan.app
+#/Applications/xTwin.app
+#/Applications/Yummy FTP.app
+#/Applications/電力ひっ迫通知.app
+
+# Apps installed but no casks are available
+# (System applications or directory installed.)
+#/Applications/21世紀ボヤージ.app
+#/Applications/Adobe
+#/Applications/Adobe Acrobat X Pro
+#/Applications/Adobe Bridge CS6
+#/Applications/Adobe Dreamweaver CS6
+#/Applications/Adobe Extension Manager CS6
+#/Applications/Adobe Fireworks CS6
+#/Applications/Adobe Flash CS6
+#/Applications/Adobe Illustrator CS6
+#/Applications/Adobe InDesign CS6
+#/Applications/Adobe Media Encoder CS6
+#/Applications/Adobe Photoshop CS6
+#/Applications/Amazon MP3 Downloader.app
+#/Applications/android-sdk-macosx
+#/Applications/Anima.app
+#/Applications/App Store.app
+#/Applications/Automator.app
+#/Applications/BeamApp.app
+#/Applications/Brother
+#/Applications/Buffalo
+#/Applications/Calc Sharp.app
+#/Applications/Calculator.app
+#/Applications/Calendar.app
+#/Applications/CalenMob.app
+#/Applications/Canon Utilities
+#/Applications/Chess.app
+#/Applications/ColorStrokes.app
+#/Applications/Contacts.app
+#/Applications/Cubby.app
+#/Applications/Dashboard.app
+#/Applications/Dictionary.app
+#/Applications/DPS App Builder.app
+#/Applications/DVD Player.app
+#/Applications/Eyefi Mobi.app
+#/Applications/FaceTime.app
+#/Applications/File Ninja.app
+#/Applications/FindWiDrawer.app
+#/Applications/Flip Player.app
+#/Applications/flowabs.app
+#/Applications/Font Book.app
+#/Applications/Game Center.app
+#/Applications/iBooks.app
+#/Applications/iFunia PhotoCrop.app
+#/Applications/Image Capture.app
+#/Applications/iMovie 9.0.9
+#/Applications/iPhone Mounter.app
+#/Applications/iSkysoft iTube Studio.app
+#/Applications/iTeleport Connect.app
+#/Applications/iTunes.app
+#/Applications/Jedit X Folder
+#/Applications/Kakumaru Punch.app
+#/Applications/KoalaWriter.app
+#/Applications/Launchpad.app
+#/Applications/Live Desktop.app
+#/Applications/Mac CD DVD Label Maker.app
+#/Applications/MacCaptureStream
+#/Applications/MacX DVD Ripper Pro.app
+#/Applications/MacX Video Converter Pro.app
+#/Applications/MagicanTools
+#/Applications/Mail.app
+#/Applications/Maps.app
+#/Applications/merkaartor.app
+#/Applications/Messages.app
+#/Applications/Microsoft Excel.app
+#/Applications/Microsoft Messenger.app
+#/Applications/Microsoft OneNote.app
+#/Applications/Microsoft Outlook.app
+#/Applications/Microsoft PowerPoint.app
+#/Applications/Microsoft Remote Desktop.app
+#/Applications/Microsoft Word.app
+#/Applications/Mission Control.app
+#/Applications/Monosnap.app
+#/Applications/MyBookEditor.app
+#/Applications/Newsoft CD Labeler.app
+#/Applications/Notes.app
+#/Applications/Pen Tablet.localized
+#/Applications/Photo Booth.app
+#/Applications/PhotoSync.app
+#/Applications/PMHMac.app
+#/Applications/Preview.app
+#/Applications/PutOn Mac.app
+#/Applications/QCamera.app
+#/Applications/QuickTime Player.app
+#/Applications/Reminders.app
+#/Applications/Remote Desktop Connection.app
+#/Applications/Remote TV (au).app
+#/Applications/RemoteCameraControl.app
+#/Applications/Safari.app
+#/Applications/Sakura.app
+#/Applications/Scripts
+#/Applications/SkyDrive-1.app
+#/Applications/SlideTop.app
+#/Applications/SpotFiles.app
+#/Applications/StationTV Link.app
+#/Applications/Stickies.app
+#/Applications/System Preferences.app
+#/Applications/TEPRA PRO
+#/Applications/TextEdit.app
+#/Applications/Time Machine.app
+#/Applications/TOLOT.app
+#/Applications/tubulator_2_beta
+#/Applications/TV Clips.app
+#/Applications/Uninstall Genieo.app
+#/Applications/WeekPop.app
+#/Applications/Wireless Auto Import.app
+#/Applications/WorkSpaces.app
+#/Applications/XBMC.app
+#/Applications/YouTube Dashboard.app
+#/Applications/Zenmap.app
+#/Users/watanabe3tipapa/Applications/Chrome Apps.localized
+#/Users/watanabe3tipapa/Applications/KeyUp.app
+#/Applications/Utilities/Activity Monitor.app
+#/Applications/Utilities/Adobe AIR Uninstaller.app
+#/Applications/Utilities/Adobe Application Manager
+#/Applications/Utilities/Adobe Flash Player Install Manager.app
+#/Applications/Utilities/Adobe Installers
+#/Applications/Utilities/Adobe Utilities-CS6.localized
+#/Applications/Utilities/AirPort Utility.app
+#/Applications/Utilities/Audio MIDI Setup.app
+#/Applications/Utilities/Bluetooth File Exchange.app
+#/Applications/Utilities/Boot Camp Assistant.app
+#/Applications/Utilities/ColorSync Utility.app
+#/Applications/Utilities/Console.app
+#/Applications/Utilities/Digital Color Meter.app
+#/Applications/Utilities/Disk Utility.app
+#/Applications/Utilities/Grab.app
+#/Applications/Utilities/Grapher.app
+#/Applications/Utilities/Keychain Access.app
+#/Applications/Utilities/Migration Assistant.app
+#/Applications/Utilities/ODBC Manager.app
+#/Applications/Utilities/Script Editor.app
+#/Applications/Utilities/System Information.app
+#/Applications/Utilities/Terminal.app
+#/Applications/Utilities/VoiceOver Utility.app
